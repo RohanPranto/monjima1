@@ -1,0 +1,245 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("font/tanpearl.ttf");
+}
+
+:root {
+  --bg-color: #10101a;
+  --main-color: #2fbf71;
+  --2nd-main-color: #ffffffcc;
+  --text-color: #fff;
+  --big-font: 5rem;
+  --h2-font: 1.9rem;
+  --p-font: 1rem;
+}
+
+body {
+  font-family: myFirstFont;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background-image: linear-gradient(76deg, rgba(15, 15, 15, 1) 39%, rgba(15, 15, 15, 1) 64%);
+}
+
+* {
+  font-family: myFirstFont;
+}
+
+.land h1 {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 140px;
+  font-weight: lighter;
+  color: white;
+  padding-left: 60px;
+}
+
+.land {
+  background-image: url(back.png);
+  margin: 0;
+  height: 725px;
+}
+
+h3 {
+  color: white;
+  position: absolute;
+  right: 70px;
+  bottom: 190px;
+}
+
+hr {
+  visibility: hidden;
+}
+
+.bt {
+  font-family: cursive;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 23px;
+  background: #A483CE;
+  text-decoration: none;
+  border: none;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bt:hover {
+  background: #079aff;
+  text-decoration: none;
+}
+
+.container-fluid row{
+}
+
+.cycle {
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  height: auto;
+}
+
+.apple {
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  height: auto;
+}
+
+.names {
+  padding: 40px;
+  margin: 20px;
+  font-size: 3rem;
+  height: 206px;
+}
+
+.applename {
+  color: white;
+  margin: 0;
+  height: 196px;
+  text-align: center;
+  background: rgb(16, 16, 16);
+  background: linear-gradient(5deg, rgba(160, 0, 18, 1) 45%, rgba(16, 16, 16, 1) 75%);
+}
+
+.cyclename {
+  color: white;
+  margin: 560px 0 0;
+  padding: 58px 15px 54px;
+  text-align: center;
+  background: rgb(160, 0, 0);
+  background: linear-gradient(5deg, rgba(160, 0, 0, 1) 17%, rgba(16, 16, 16, 1) 47%);
+}
+
+.musicname {
+  color: white;
+  margin: 560px 0 0;
+  padding: 80px 15px 63px;
+  text-align: center;
+  background: rgb(208,107,151);
+  background: rgb(208,107,151);
+  background: linear-gradient(5deg, rgba(208,107,151,1) 0%, rgba(202,211,242,1) 30%);
+}
+
+.todoname {
+  color: white;
+  margin: 0;
+  padding: 25px;
+  height: 196px;
+  text-align: center;
+  background: rgb(118, 154, 255);
+  background: linear-gradient(351deg, rgba(118, 154, 255, 1) 41%, rgba(215, 224, 255, 1) 75%);
+}
+
+.storename {
+  color: white;
+  margin: 560px 0 0;
+  padding: 88px 15px 22px;
+  text-align: center;
+  background: rgb(255,191,0);
+background: linear-gradient(3deg, rgba(255,191,0,1) 39%, rgba(255,255,255,1) 75%);
+}
+
+.bankname {
+  color: white;
+  margin: 0;
+  padding: auto;
+  height: 198px;
+  text-align: center;
+  background: rgb(119, 215, 17);
+  background: linear-gradient(5deg, rgba(119, 215, 17, 1) 64%, rgba(255, 255, 255, 1) 92%);
+}
+
+.contact {
+  background-image: url(back.png);
+  margin: 0;
+  height: 725px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+.contact-form form {
+  position: relative;
+  width: 550px;
+}
+
+.contact a {
+  padding-right: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: #0b0b13;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: var(--2nd-main-color);
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
+
+form .send-btn {
+  background: var(--main-color);
+  color: var(--text-color);
+  box-shadow: 4px 4px var(--text-color);
+  padding: 0 25px;
+  line-height: 42px;
+  display: inline-block;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: ease all 0.3s;
+  cursor: pointer;
+}
+
+form .send-btn:hover {
+  background: var(--text-color);
+  color: var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+}
+
+.contact h1 {
+  text-align:center;
+  color: white;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.contact h6 {
+  text-align: center;
+  color: white;
+  padding-right:18px;
+  text-decoration: underline;
+}
+footer a{
+  font-family:monospace;
+}
+footer a:hover{
+  color: #3eff96;
+}
